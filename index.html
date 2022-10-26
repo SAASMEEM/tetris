@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tetris</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <h3>Tetris</h3>
+    </div>
+
+    <button class="button buttonReset" onclick="reset()">Reset</button>
+    <button class="button buttonPause" onclick="alert('game paused')">Pause</button>
+
+
+    <table>
+        <tr>
+            <th>Score</th>
+            <td><span id="score"></span></td>
+        </tr>
+        <tr>
+            <th>Highscore</th>
+            <td><span id="high_score"></span> </td>
+        </tr>
+    </table>
+
+
+    <canvas id="canvas" width="200" height="400"></canvas>
+
+    </body>
+    <script src="script.js"></script>
+</html> 
